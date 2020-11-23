@@ -11,24 +11,71 @@
 /* color:#2c3e50; */
 /* /LISTA COLORI UTILIZZATI */
 
-/* SFONDI E COLORI TESTO - PERSONALIZZAZIONE */
+/* SFONDI, COLORI E CENTRATURA TESTO TESTO - PERSONALIZZAZIONE */
 .background-white{
   background-color: #ffffff;
   color: #2c3e50;
+  text-align: center;
 }
 
 .background-turchese{
   background-color: #1abc9c;
   color: #ffffff;
+  text-align: center;
 }
 
 .background-lightblue{
   background-color: #3a546d;
   color: #ffffff;
+  text-align: center;
 }
 
 .background-darkblue{
   background-color: #2c3e50;
   color: #ffffff;
+  text-align: center;
 }
 /* /SFONDI E COLORI TESTO - PERSONALIZZAZIONE */
+
+
+/* UTILITIES */
+.txt-center{
+  text-align: center;
+}
+/* UTILITIES */
+
+
+
+
+/* DEBUGG */
+.navbar{
+  height: 80px;
+}
+
+.container{
+  border: 1px solid red;
+}
+
+/* /DEBUGG */
+
+/* Decorazione riga stellina */
+h1:after{
+  padding: 15px 0px;
+  display: block;
+  content:"----- # ------";
+}
+
+h2:after{
+  padding: 15px 0px;
+  display: block;
+  content:"----- # ------";
+}
+/* /Decorazione riga stellina */
+
+.container .cornice-img{
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  border: 1px solid violet;
+  margin-bottom: 15px;
+}
