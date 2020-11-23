@@ -52,7 +52,11 @@
   height: 80px;
 }
 
-.container{
+/* .container{
+  border: 1px solid red;
+} */
+
+[class*="col-xs-"]{
   border: 1px solid red;
 }
 
@@ -62,13 +66,13 @@
 h1:after{
   padding: 15px 0px;
   display: block;
-  content:"----- # ------";
+  content:"----- ✧ ------";
 }
 
 h2:after{
   padding: 15px 0px;
   display: block;
-  content:"----- # ------";
+  content:"----- ✧ ------";
 }
 /* /Decorazione riga stellina */
 
