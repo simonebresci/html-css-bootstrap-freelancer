@@ -56,9 +56,9 @@
   border: 1px solid red;
 } */
 
-[class*="col-xs-"]{
+/* [class*="col-xs-"]{
   border: 1px solid red;
-}
+} */
 
 /* /DEBUGG */
 
@@ -76,10 +76,15 @@ h2:after{
 }
 /* /Decorazione riga stellina */
 
-.container .cornice-img{
+.img-avatar{
+  width: 60%;
+  height: auto;
+}
+
+
+.container-fluid .cornice-img{
   width: 100%;
   height: auto;
   border-radius: 15px;
-  border: 1px solid violet;
   margin-bottom: 15px;
 }
