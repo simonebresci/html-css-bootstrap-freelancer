@@ -185,6 +185,7 @@
 
 .bl-contact input, .bl-contact textarea{
   line-height: 40px;
+  width: 100%;
 }
 
 .bl-contact input::placeholder, .bl-contact textarea::placeholder{
@@ -210,3 +211,61 @@ padding-top: 30px;
 padding-bottom: 40px;
 }
 /* /Fascia Copyright */
+
+
+/* Regole formattazione cellulari */
+@media screen and (max-width: 767px) {
+  /* Padding laterale fascia portfolio */
+  /* .bl-portfolio{
+    padding:0;
+  } */
+
+  /* Padding laterale fascia about */
+  .bl-about{
+    padding:0 15%;
+  }
+
+  /* Padding laterale fascia conctact */
+  .bl-contact{
+    padding:0 10%;
+  }
+}
+
+/* Regole formattazione da tablet in poi*/
+@media screen and (min-width: 768px) {
+  /* Padding laterale fascia portfolio */
+  .bl-portfolio{
+    padding: 0 5%;
+  }
+
+  /* Padding laterale fascia about */
+  .bl-about{
+    padding:0 10%;
+  }
+
+  /* Padding laterale fascia conctact */
+  .bl-contact{
+    padding:0 10%;
+  }
+}
+/* /Regole formattazione fino a larghezza cellulare  */
+
+
+/* Regole formattazione da desktop in poi*/
+@media screen and (min-width: 992px) {
+  /* Padding laterale fascia portfolio */
+  .bl-portfolio{
+    padding: 0 10%;
+  }
+
+  /* Padding laterale fascia about */
+  .bl-about{
+    padding:0 15%;
+  }
+
+  /* Padding laterale fascia conctact */
+  .bl-contact{
+    padding:0 15%;
+  }
+}
+/* /Regole formattazione fino a larghezza tablet */
