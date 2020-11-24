@@ -67,12 +67,7 @@
   border-radius: 50%;
   padding: 5px;
 }
-
-
 /* UTILITIES */
-
-
-
 
 /* NAVBAR - DA FARE */
 .bl-navbar{
@@ -82,6 +77,7 @@
 
 /* FASCIA JUMBOTRON */
 
+/* Azzera padding jumbotron */
 .bl-jumbotron{
   padding-bottom: 0px;
 }
@@ -102,9 +98,15 @@
 }
 
 /* Stile h1 */
-.container h1{
+.container-fluid h1, .container h1{
   font-weight: bold;
   font-size: 28px;
+}
+
+/* Stile h2 */
+.container-fluid h2, .container h2{
+  font-size:20px;
+  font-weight: 700;
 }
 
 /* Separatore stellina */
@@ -121,9 +123,17 @@
   width: 50px;
   line-height: 4px;
   vertical-align: middle;
-  background-color: white;
   content:"";
   border-radius: 2px;
+}
+/* Riga separatrice stellina - bianca */
+.star-sep.star-white::before, .star-sep.star-white::after{
+  background-color: #ffffff;
+}
+
+/* Riga separatrice stellina - dark blue */
+.star-sep.star-darkblue::before, .star-sep.star-darkblue::after{
+  background-color: #2c3e50;
 }
 
 /* /FASCIA JUMBOTRON */
@@ -131,8 +141,13 @@
 
 /* FASCIA PORTFOLIO */
 
+/* Padding di sezione Portfolio */
+.bl-portfolio{
+  padding-bottom: 30px;
+}
+
 /* Contenitore immagini portfolio */
-.container-fluid .cornice-img{
+.bl-portfolio .bl-cornice-img{
   width: 100%;
   height: auto;
   border-radius: 15px;
