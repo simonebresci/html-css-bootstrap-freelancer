@@ -46,19 +46,21 @@
   text-align: center;
 }
 
+/* Colora sfondo bottone di turchese */
 .btn-fill-turchese{
   background-color: #1abc9c;
   border-radius: 5px;
   color:white;
   padding: 5px;
 }
-
-.transparent-inside{
+/* Rendi trasparente bottone */
+.btn-transparent-inside{
   background-color: rgba(0,0,0,0);
   border: 1px solid white;
   border-radius: 5px;
 }
 
+/* Contenitore vuoto a forma di cerchio */
 .transparent-inside-circle{
   background-color: rgba(0,0,0,0);
   border: 1px solid white;
@@ -66,48 +68,70 @@
   padding: 5px;
 }
 
+
 /* UTILITIES */
 
 
 
 
-/* DEBUGG */
-.navbar{
+/* NAVBAR - DA FARE */
+.bl-navbar{
   height: 80px;
+  margin-bottom:0px;
 }
 
-/* .container{
-  border: 1px solid red;
-} */
+/* FASCIA JUMBOTRON */
 
-/* [class*="col-xs-"]{
-  border: 1px solid red;
-} */
+.bl-jumbotron{
+  padding-bottom: 0px;
+}
 
 /* /DEBUGG */
 
-/* Decorazione riga stellina */
-h1:after{
-  padding: 15px 0px;
-  display: block;
-  content:"----- ✧ ------";
-}
-
-h2:after{
-  padding: 15px 0px;
-  display: block;
-  content:"----- ✧ ------";
-}
-/* Stellina Font-awesome */
-/* <i class="fa fa-star" aria-hidden="true"></i> */
-/* /Decorazione riga stellina */
-
-.img-avatar{
-  width: 60%;
+/* Imposta larghezza immagine avatar */
+.bl-img-avatar{
+  width: 50%;
   height: auto;
 }
 
 
+/* Modifica testo al lead del Jumbotron Bootstrap */
+.jumbotron .bl-lead{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Stile h1 */
+.container h1{
+  font-weight: bold;
+  font-size: 28px;
+}
+
+/* Separatore stellina */
+.star-sep{
+  font-size:30px;
+  margin: 15px 0;
+}
+/* Riga separatrice stellina */
+.star-sep::before, .star-sep::after{
+  position: relative;
+  bottom:2px;
+  display: inline-block;
+  height: 4px;
+  width: 50px;
+  line-height: 4px;
+  vertical-align: middle;
+  background-color: white;
+  content:"";
+  border-radius: 2px;
+}
+
+/* /FASCIA JUMBOTRON */
+
+
+/* FASCIA PORTFOLIO */
+
+/* Contenitore immagini portfolio */
 .container-fluid .cornice-img{
   width: 100%;
   height: auto;
@@ -115,15 +139,22 @@ h2:after{
   margin-bottom: 15px;
 }
 
+/* /FASCIA PORTFOLIO */
+
+/* FASCIA ABOUT */
 .about button{
   margin: 30px 0;
 }
 
+/* /FASCIA ABOUT */
+
+/* FASCIA INPUTS */
 .contact input, .contact textarea {
   border: 0px;
   border-bottom: 1px solid #bbb;
 }
+/* /FASCIA INPUTS */
 
-.container, .container-fluid{
+/* .container, .container-fluid{
   padding-bottom: 10px;
-}
+} */
