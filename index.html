@@ -106,7 +106,7 @@
         <!-- /Fascia Portfolio -->
 
         <!-- Fascia ABOUT -->
-        <div class="container-fluid about background-turchese ">
+        <div class="container-fluid bl-about background-turchese ">
           <h2>ABOUT</h2>
           <!-- Star separatore-->
           <div class="star-sep star-white">
@@ -143,63 +143,26 @@
 
         <!-- Fascia CONTACT ME -->
         <div class="container-fluid background-white">
-          <div class="container contact">
+          <div class="container bl-contact">
             <!-- <div class="col-xs-1"> </div> -->
             <div class="col-xs-12">
               <h2>CONTACT ME</h2>
+              <!-- Star separatore-->
+              <div class="star-sep star-darkblue">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+              <!-- Star separatore-->
               <div class="row">
+              <form class="form-group">
+                <input type="text" id="fname" name="fname" placeholder="Name">
+                <input type="text" id="faddress" name="faddress" placeholder="Email Address">
+                <input type="text" id="fnumber" name="fnumber" placeholder="Phone Number">
+                <textarea placeholder="Message" name="tmessage" rows="4" cols="20" ></textarea>
 
-                <div class="row">
-                  <div class="col-xs-12 ">
-                    <!-- Name -->
-                    <label for="fname">Name</label>
-
-                  </div>
-                  <input type="text" id="fname" name="fname">
-                </div>
-
-
-                <div class="row">
-                  <div class="col-xs-12">
-                    <!-- Email Address -->
-                    <label for="fname">Email Address</label>
-
-                  </div>
-                  <div class="col-xs-12">
-                    <input type="text" id="faddress" name="faddress">
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-xs-12">
-                    <!-- Phone Number -->
-                    <label for="fname">Phone Number</label>
-
-                  </div>
-                  <div class="col-xs-12">
-                    <input type="text" id="fnumber" name="fnumber">
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-xs-12">
-                    <!-- Message -->
-                    <label for="fname">Message</label>
-
-                  </div>
-
-                  <div class="col-xs-12">
-                    <textarea id="w3review" name="w3review" rows="4" cols="20"> </textarea>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-xs-12">
-                    <button class="btn-fill-turchese"type="button" name="button">Send</button>
-                  </div>
-                </div>
-
-
+              </form>
+              <!-- Bottone bootstrap  -->
+              <button type="submit" class="btn btn-default btn-lg btn-fill-turchese">Send</button>
+              <!-- /Bottone bootstrap  -->
               </div>
             </div>
             <!-- <div class="col-xs-1"></div> -->

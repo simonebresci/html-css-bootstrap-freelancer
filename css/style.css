@@ -9,6 +9,9 @@
 /* color:#2c3e50; */
 /* Testo blu scuro */
 /* color:#2c3e50; */
+/* Righe input sezione contact */
+/* color: #e3e3e3; */
+
 /* /LISTA COLORI UTILIZZATI */
 
 /* SFONDI, COLORI E CENTRATURA TESTO TESTO - PERSONALIZZAZIONE */
@@ -157,17 +160,40 @@
 /* /FASCIA PORTFOLIO */
 
 /* FASCIA ABOUT */
-.about button{
+.bl-about button{
   margin: 30px 0;
 }
 
 /* /FASCIA ABOUT */
 
 /* FASCIA INPUTS */
-.contact input, .contact textarea {
-  border: 0px;
-  border-bottom: 1px solid #bbb;
+
+/* Paddding sezione bl contact */
+.bl-contact{
+  margin-bottom:20px;
 }
+
+/* Personalizzazione input e textarea */
+.bl-contact input, .bl-contact textarea {
+  width: 70%;
+  border: 0px;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.bl-contact input, .bl-contact textarea{
+  line-height: 40px;
+}
+
+.bl-contact input::placeholder, .bl-contact textarea::placeholder{
+  color: #3a546d;
+  font-weight: 550;
+}
+
+.bl-contact textarea{
+  color:#3a546d ;
+}
+/* /Personalizzazione input e textarea */
+
 /* /FASCIA INPUTS */
 
 /* .container, .container-fluid{
