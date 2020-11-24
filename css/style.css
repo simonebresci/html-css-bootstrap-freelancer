@@ -65,6 +65,9 @@
 
 /* Contenitore vuoto a forma di cerchio */
 .transparent-inside-circle{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
   background-color: rgba(0,0,0,0);
   border: 1px solid white;
   border-radius: 50%;
@@ -194,8 +197,16 @@
 }
 /* /Personalizzazione input e textarea */
 
+
 /* /FASCIA INPUTS */
 
-/* .container, .container-fluid{
-  padding-bottom: 10px;
-} */
+/* FOOTER */
+/* da fare */
+/* /FOOTER */
+
+/* Fascia Copyright */
+.bl-copyright{
+padding-top: 30px;
+padding-bottom: 40px;
+}
+/* /Fascia Copyright */
